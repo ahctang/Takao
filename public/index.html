@@ -15,15 +15,11 @@
 	<style>
 		html 					{ overflow-y:scroll; }
 		body 					{ padding-top:50px; }
-		#todo-list 				{ margin-bottom:30px; }
-		#todo-form 	 			{ margin-bottom:50px; }
+		#post-list 				{ margin-bottom:30px; }
 	</style>
-
-	<!-- SPELLS -->
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script><!-- load angular -->
-
 	<script src="js/controllers/main.js"></script> <!-- load up our controller -->
-	<script src="js/services/todos.js"></script> <!-- load our todo service -->
+	<script src="js/services/services.js"></script> <!-- load our todo service -->
 	<script src="js/core.js"></script> <!-- load our main application -->
 
 </head>
@@ -37,7 +33,7 @@
 		</div>
 
 		<!-- TODO LIST -->
-		<div id="todo-list" class="row">
+		<div id="post-list" class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 				<!-- LOOP OVER THE TODOS IN $scope.todos -->
 				<div class="checkbox" ng-repeat="redditEntry in RedditEntries">
