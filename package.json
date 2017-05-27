@@ -1,0 +1,19 @@
+{
+  "name": "takao",
+  "version": "1.0.0",
+  "description": "A node js based web server front end to go with atago",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahctang/Takao.git"
+  },
+  "author": "ahctang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahctang/Takao/issues"
+  },
+  "homepage": "https://github.com/ahctang/Takao#readme"
+}
